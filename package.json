@@ -1,0 +1,39 @@
+{
+  "name": "hooket-cli",
+  "version": "0.0.1",
+  "description": "Single client for hooket server",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v ./tests/**/**.tests.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jquiceno/hooket-cli/issues"
+  },
+  "homepage": "https://github.com/jquiceno/hooket-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquiceno/hooket-cli.git"
+  },
+  "keywords": [
+    "hooket",
+    "services",
+    "socketio",
+    "webhooks"
+  ],
+  "author": "jquiceno",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "ava": "^2.2.0",
+    "standard": "^13.1.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^7.4.3",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "socket.io-client": "^2.2.0",
+    "uuid": "^3.3.2"
+  }
+}
